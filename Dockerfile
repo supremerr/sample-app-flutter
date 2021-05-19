@@ -1,3 +1,3 @@
-FROM ubuntu
+FROM nginx
 
-COPY . .
+COPY ./build/web /usr/share/nginx/html
